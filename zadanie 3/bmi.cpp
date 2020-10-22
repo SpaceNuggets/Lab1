@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <conio.h>
 
 using namespace std;
 
@@ -36,5 +37,6 @@ int main()
         cout<<"II stopien otylosci";
     else
         cout<<"otylosc skrajna";
+    getch();
    return 0;
 }
