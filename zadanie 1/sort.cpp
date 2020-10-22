@@ -1,5 +1,5 @@
 #include <iostream>
-
+#include <conio.h>
 #include <string>
 
 
@@ -31,6 +31,7 @@ int main(int argc, char* argv[])
     for ( int i = 0; i < argc - 1; i++ ){
          cout << liczby[i] << " ";
     }
-    cout << endl;
+    cout << endl; 
+    getch();
     return 0;
 }
